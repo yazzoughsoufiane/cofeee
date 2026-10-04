@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ماكينة قهوة محمولة 20 بار — 399 درهم، التوصيل مجاني والدفع عند الاستلام</title>
 <meta name="description" content="ماكينة قهوة محمولة بضغط 20 بار، كتخدم بكبسولات نسبريسو، دولتشي غوستو والقهوة المطحونة. التوصيل مجاني لجميع مدن المغرب، الدفع عند الاستلام.">
-<meta property="og:image" content="images/hero.webp">
+<meta property="og:image" content="images/hero-960.webp">
+<link rel="preload" as="image" href="images/hero-960.webp" imagesrcset="images/hero-640.webp 640w, images/hero-960.webp 960w" imagesizes="(max-width:820px) 100vw, 540px" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800;900&display=swap" rel="stylesheet">
@@ -91,6 +92,8 @@ footer{background:#100905;color:#a99985;text-align:center;padding:26px 16px;font
  .compat div{border-inline-end:0;border-bottom:1px solid var(--line)}
  .sticky{display:flex}body{padding-bottom:84px}
  .pair .first{order:-1}
+ .hero{padding-top:18px}
+ .hero .wrap>img{order:-1}
 }
 </style>
 </head>
@@ -123,7 +126,7 @@ const CFG={
    <a href="#commande" class="btn">🛒 اطلبها دابا</a>
    <div class="trust"><span>✔ الدفع عند الاستلام</span><span>✔ تأكيد الطلب قبل الشحن</span><span>✔ شوف السلعة قبل ما تخلص</span></div>
   </div>
-  <img src="images/hero.webp" width="1315" height="1197" alt="ماكينة قهوة محمولة بيضاء مع كبسولات نسبريسو ودولتشي غوستو وحقيبة للتنقل" fetchpriority="high">
+  <img src="images/hero-960.webp" srcset="images/hero-640.webp 640w, images/hero-960.webp 960w" sizes="(max-width:820px) 100vw, 540px" width="960" height="874" alt="ماكينة قهوة محمولة بيضاء مع كبسولات نسبريسو ودولتشي غوستو وحقيبة للتنقل" fetchpriority="high">
  </div>
 </header>
 
